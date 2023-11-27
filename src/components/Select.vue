@@ -28,7 +28,7 @@ export default {
         this.getCategoriasLenguajes();
     },
     computed: {
-        //mapeo de la propiedad categoriasLenguajes del state
+        //mapeo de la propiedad categoriasLenguajes del state,recibo modulo y propiedad
         ...mapState("lenguajes", ["categoriasLenguajes"]),
     },
     methods: {
